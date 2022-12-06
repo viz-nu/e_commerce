@@ -1,0 +1,47 @@
+.products-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+button .addToCart {
+  margin-top: 25px;
+  margin-bottom: auto;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(21, 26, 42, 0.787);
+}
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 10px #ccc;
+}
+.card img {
+  width: 45%;
+  height: 20%;
+}
+.card > p {
+  font-size: 30px;
+}
+.card:hover {
+  box-shadow: 10px 10px 20px #ccc;
+}
+
+.orderBtn {
+  margin: 10px;
+  width: 200px;
+  background: orangered;
+  border: none;
+  cursor: pointer;
+}
+.orderBtn:hover {
+  background: rgb(89, 0, 190);
+}

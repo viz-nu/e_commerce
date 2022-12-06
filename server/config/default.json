@@ -1,0 +1,8 @@
+{
+    "DB_URL": "mongodb+srv://viz:viz1@cluster0.05ocl42.mongodb.net/e-commerse",
+    "PORT": 5000,
+    "URL": "http://172.23.86.226:5000",
+    "SECRET_KEYS": {
+        "JWT": "viz login token"
+    }
+}
