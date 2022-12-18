@@ -6,7 +6,7 @@ import { authActions } from "../store/auth-slice";
 
 const Header = () => {
   const dispatch = useDispatch();
-  const logout=()=>{
+  const logout = () => {
     dispatch(authActions.logout())
   }
   return (
@@ -20,7 +20,7 @@ const Header = () => {
             <Cart />
           </li>
           <li>
-            <button onClick={logout}>logout</button>
+            <button className="logout-btn" onClick={logout}>logout</button>
           </li>
         </ul>
       </nav>
