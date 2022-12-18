@@ -13,10 +13,8 @@ app.listen(port, () => {
 
 app.use("/", async (req, res) => {
     try {
-        
-        let c=25
-        res.send(`${c}`)
-    } catch (error) {
 
+    } catch (error) {
+        console.log(error);
     }
 });
